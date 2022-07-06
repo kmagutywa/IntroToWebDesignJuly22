@@ -1,18 +1,39 @@
 body{
-  font-family: sans-serif;
+  font-family: Georgia, 'Times New Roman', Times, serif;
   font-size:110%;
   background-color: #FCF7F8;
   font-color:black;
 }
+#sidebar{
+  width:10%;
+  background-color: teal;
+  padding:1rem;
+  color:black
+}
+.navList{
+  list-style-type: none;
+  padding:0%;
+}
 
+#profilePhoto{
+  width: 15%;
+  height:15%;
+  border-radius: 50%;
+  border: 5px solid black
+}
 #header {
-  background-color: #343330;
+  background-color: #bc992d;
   text-align: center;
   font-family: Georgia, 'Times New Roman', Times, serif;
   
 }
+.icons{
+  width:3rem;
+  margin:2rem;
+  height: auto;
+}
 
 footer {
-  background-color: #343330;
-  text-align: center;
+  background-color: #bc992d;
+   text-align: center;
 }
