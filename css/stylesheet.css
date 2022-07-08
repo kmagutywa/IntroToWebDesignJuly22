@@ -2,12 +2,14 @@ body{
   font-family: Georgia, 'Times New Roman', Times, serif;
   font-size:110%;
   background-color: #FCF7F8;
-  font-color:black;
+ display:flex;
+ flex-direction: column;
 }
 main{
-border:3px solid black;
-margin-top: 1rem;
-margin-bottom: 1rem;
+  display:flex;
+  flex-direction: row;
+  overflow: unset;
+
 }
 
 
@@ -16,8 +18,7 @@ margin-bottom: 1rem;
   background-color: teal;
   padding:1rem;
   color:black;
-  border: 3px solid black;
-  margin-top: 1rem;
+
   
 }
 .navList{
@@ -29,13 +30,13 @@ margin-bottom: 1rem;
   width: 15%;
   height:15%;
   border-radius: 50%;
-  border: 5px solid black
+  border: 5px solid teal;
 }
 #header {
   background-color: #bc992d;
   text-align: center;
   font-family: Georgia, 'Times New Roman', Times, serif;
-  border:3px solid black;
+
   
 }
 .icons{
@@ -47,5 +48,5 @@ margin-bottom: 1rem;
 footer {
   background-color: #bc992d;
    text-align: center;
-   border: 3px solid black;
+  
 }
