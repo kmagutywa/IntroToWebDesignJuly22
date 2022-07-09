@@ -1,2 +1,2 @@
-# IntroToWebDesignJuly22
-Introduction to web design through creating a digital resume
+# IntroToWebDJuly22
+Introduction to web through creating a digital resume
