@@ -22,17 +22,14 @@ main{
   
 }
 
-.links:{
+a:link{
   color:#bc992d;
 }
-.links:visited{
-  color:black;
+a:visited{
+  color:blue;
 }
-.links:hover{
+a:hover{
   color:red;
-}
-link:active{
-  color:purple;
 }
 
 
