@@ -21,10 +21,26 @@ main{
 
   
 }
+
+.links:{
+  color:#bc992d;
+}
+.links:visited{
+  color:black;
+}
+.links:hover{
+  color:red;
+}
+link:active{
+  color:purple;
+}
+
+
 .navList{
   list-style-type:none;
   padding:0%;
 }
+
 
 #profilePhoto{
   width: 15%;
